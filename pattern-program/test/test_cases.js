@@ -8,7 +8,7 @@ import {
   RT_TRIANGLE,
   DIAMOND,
   HOLLOW_DIAMOND
-} from './constants.js';
+} from '../src/constants.js';
 const underLine = (text) => {
   const underScores = "\n\t" + "_".repeat(text.length) + "\n";
   return "\t" + text + underScores + "\n";

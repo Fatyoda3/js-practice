@@ -1,4 +1,13 @@
-import { testFilledCases, testAllTestCasesHollow, testAllTestCasesAlternateRect, testAllTestCasesSpaceAlternateRect, testAllTestCasesTriangle, testAllTestCasesRightAlignTriangle, testAllTestCasesDiamond, testAllTestCasesHollowDiamond } from "./test_cases";
+import {
+  testFilledCases,
+  testAllTestCasesHollow,
+  testAllTestCasesAlternateRect,
+  testAllTestCasesSpaceAlternateRect,
+  testAllTestCasesTriangle,
+  testAllTestCasesRightAlignTriangle,
+  testAllTestCasesDiamond,
+  testAllTestCasesHollowDiamond
+} from "./test_cases.js";
 
 const testAllCases = () => {
   testFilledCases();

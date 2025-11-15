@@ -1,4 +1,4 @@
-import { generatePattern } from "./patterns.js";
+import { generatePattern } from "../src/main.js";
 
 export const tester = (testCase) => {
   const { inputs } = testCase;
